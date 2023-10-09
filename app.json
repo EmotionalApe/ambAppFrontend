@@ -21,10 +21,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.dhananjay.careflight",
+      "versionCode": 2,
+      "config" : {
+        "googleMaps" : {"apiKey" : "AIzaSyBwhekKooSCDP-Bi3KyGxSgQ6xicDhbjXk"}
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4f56777e-bcd4-4bd0-b958-2b8769e31307"
+      }
     }
   }
 }
